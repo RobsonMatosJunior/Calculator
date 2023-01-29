@@ -4,31 +4,34 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/style.css">
-    <title> Calculadora</title>
+    <link rel="stylesheet" href="Css/style.css">
+    <script src="Js/main.js" defer></script>
+    <title>Calculadora</title>
 </head>
 <body>
-    <div class="container">
-        <div class="calculator">
-          <input type="text" class="calculator__display"  placeholder="Clique em qualquer número para começar a calcular!">
-            <div class="calculator__keys">
-              <button class="key--operator" data-action="add">+</button>
-              <button class="key--operator" data-action="subtract">-</button>
-              <button class="key--operator" data-action="multiply">&times;</button>
-              <button class="key--operator" data-action="divide">÷</button>
-          <button>7</button>
-          <button>8</button>
-          <button>9</button>
-          <button>4</button>
-          <button>5</button>
-          <button>6</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>0</button>
-          <button data-action="decimal">.</button>
-          <button data-action="clear">AC</button>
-          <button class="key--equal" data-action="calculate">=</button>
-      </div> 
+    <div class="calculadora-grid">
+        <div class="display">
+            <div class="operacao"></div>
+            <div class="pos-operacao"></div>
+        </div>
+        <button class="duplo-espaco">AC</button>
+        <button>Del</button>
+        <button>÷</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>-</button>
+        <button>.</button>
+        <button>0</button>
+        <button class="duplo-espaco">=</button>
     </div>
 </body>
+</html>
