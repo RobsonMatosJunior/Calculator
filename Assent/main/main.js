@@ -1,3 +1,26 @@
+class Calculator{
+    constructor(previousOperandTextElement, currentOperandTextElement){
+        this.previousOperandTextElement = previousOperandTextElement
+        this.previousOperandTextElement = previousOperandTextElement
+    }
+
+    limpar(){
+
+    }
+
+    deletar(){
+
+    }
+
+    appendNumber(){
+
+    }
+
+    chooseOperation(operation){
+
+    }
+}
+
 const botoesNumeros = document.querySelectorAll('[numeros]');
 const botoesOperacoes = document.querySelectorAll('[operacoes]');
 const botaoigual = document.querySelector('[igual]');
