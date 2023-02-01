@@ -15,3 +15,4 @@ Status do projeto: em Desenvolvimento.
 (Status of the project: in development)
 
 
+![image](https://user-images.githubusercontent.com/111658874/215928754-713b00d3-6b2c-4ace-8e0b-6ab0ad5652fd.png)
