@@ -87,8 +87,8 @@ class Calculator {
   
   
   const numberButtons = document.querySelectorAll('[numeros]')
-  const operationButtons = document.querySelectorAll('[operacoes]')
-  const equalsButton = document.querySelector('[resultado]')
+  const operationButtons = document.querySelectorAll('[calculo]')
+  const equalsButton = document.querySelector('[igual]')
   const deleteButton = document.querySelector('[desfazer]')
   const allClearButton = document.querySelector('[limpar]')
   const previousOperandTextElement = document.querySelector('[operacao]')
