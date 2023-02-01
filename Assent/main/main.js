@@ -86,17 +86,17 @@ class Calculator {
   }
   
   
-  const numberButtons = document.querySelectorAll('[numeros]')
+  const botaoNumero = document.querySelectorAll('[numeros]')
   const operationButtons = document.querySelectorAll('[calculo]')
-  const equalsButton = document.querySelector('[igual]')
-  const deleteButton = document.querySelector('[desfazer]')
+  const botaoresultado = document.querySelector('[igual]')
+  const botaodesfazer = document.querySelector('[desfazer]')
   const allClearButton = document.querySelector('[limpar]')
   const previousOperandTextElement = document.querySelector('[operacao]')
   const currentOperandTextElement = document.querySelector('[posOperacao]')
   
   const calculator = new Calculator(previousOperandTextElement, currentOperandTextElement)
   
-  numberButtons.forEach(button => {
+  botaoNumero.forEach(button => {
     button.addEventListener('click', () => {
       calculator.appendNumber(button.innerText)
       calculator.updateDisplay()
@@ -120,7 +120,7 @@ class Calculator {
     calculator.updateDisplay()
   })
   
-  deleteButton.addEventListener('click', button => {
+  botaodesfazer.addEventListener('click', button => {
     calculator.delete()
     calculator.updateDisplay()
   })
