@@ -10,7 +10,7 @@
       background: linear-gradient(to right, rgb(140, 218, 230), rgb(147, 249, 99));
   }
   
-  .calculadora-grid{
+  .calculadora{
       display: grid;
       justify-content: center;
       align-content: center;
@@ -20,7 +20,7 @@
   
   }
   
-  .calculadora-grid > button{
+  .calculadora > button{
       cursor: pointer;
       font-size: 2rem;
       border: 1px solid white;
@@ -28,7 +28,7 @@
       background-color: whitesmoke;
   }
   
-  .calculadora-grid > button:hover {
+  .calculadora > button:hover {
       background-color: rgba(255, 255, 255, 0.5);
   }
   
