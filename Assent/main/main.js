@@ -1,23 +1,35 @@
-class Calculator{
-    constructor(previousOperandTextElement, currentOperandTextElement){
-        this.previousOperandTextElement = previousOperandTextElement
-        this.previousOperandTextElement = previousOperandTextElement
+class Calculator {
+    constructor(previousOperandTextElement, currentOperandTextElement) {
+      this.previousOperandTextElement = previousOperandTextElement
+      this.currentOperandTextElement = currentOperandTextElement
+      this.limpar()
     }
 
     limpar(){
+        this.operacao = ''
+        this.posOperacao = ''
+        this.operation = undefined
 
     }
 
     deletar(){
-
+        this.operacao = this.posOperacao.toString().slice(0,-1)
     }
 
-    appendNumber(){
+    concatenar(number){
 
     }
 
     chooseOperation(operation){
 
+    }
+
+    compute(){
+        
+    }
+
+    updateDisplay(){
+         
     }
 }
 
